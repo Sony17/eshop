@@ -152,3 +152,4 @@ bin/
 lib/
 venv/
 .env
+DS_Store
