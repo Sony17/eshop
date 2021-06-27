@@ -1,13 +1,10 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/django
-# Edit at https://www.toptal.com/developers/gitignore?templates=django
-
 ### Django ###
 *.log
 *.pot
 *.pyc
 __pycache__/
-local_settings.py
+# local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
@@ -118,13 +115,13 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env
 .venv
 env/
 venv/
 ENV/
 env.bak/
-venv.bak/
+# venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -151,3 +148,7 @@ dmypy.json
 cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+bin/
+lib/
+venv/
+.env
